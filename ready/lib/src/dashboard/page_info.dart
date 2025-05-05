@@ -289,4 +289,10 @@ class _Observer extends ChangeNotifier implements NavigatorObserver {
   void didStopUserGesture() {
     notifyListeners();
   }
+
+  @override
+void didChangeTop(Route<dynamic> topRoute, Route<dynamic>? previousTopRoute) {
+  // No-op, required for Flutter 3.22+
+}
+
 }
