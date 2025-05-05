@@ -87,6 +87,11 @@ class __PageInfoState extends State<_PageInfo> {
   }
 
   @override
+void didChangeTop(Route<dynamic> topRoute, Route<dynamic>? previousTopRoute) {
+  // Ne rien faire ou ajouter un log
+}
+
+  @override
   Widget build(BuildContext context) {
     var item = widget.item;
 
