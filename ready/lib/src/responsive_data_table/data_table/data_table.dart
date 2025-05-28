@@ -85,7 +85,7 @@ class _DataTableState<T, S extends BaseReadyListState<T>,
     }
     return Theme(
       data: Theme.of(context).copyWith(
-        cardTheme: const CardTheme(
+        cardTheme: const CardThemeData(
           clipBehavior: Clip.none,
           margin: EdgeInsets.zero,
           shadowColor: Colors.transparent,
